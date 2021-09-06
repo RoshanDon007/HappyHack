@@ -3,7 +3,7 @@ from pynput.keyboard import Key, Controller
 import time
 username = input('Username: ')
 dictionary = input('Choose Dictionary: ')
-file = open(f'{dictionary}.txt', 'r')
+file = open(f'{dictionary}.txt', 'r').read()
 bruteforce = []
 for line in file:
     line = line.strip()
