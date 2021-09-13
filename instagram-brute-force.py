@@ -3,7 +3,6 @@ from pynput.keyboard import Key, Controller
 import time
 username = input('Username: ')
 dictionary = input('Choose Dictionary: ')
-file = open('{dictionary}.txt' )as f:
     read_dict = json.load(f)
 bruteforce = []
 for line in file:
