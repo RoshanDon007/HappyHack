@@ -2,8 +2,6 @@ from webbot import Browser
 from pynput.keyboard import Key, Controller
 import time
 username = input('Username: ')
-dictionary = input('Choose Dictionary: ')
-    read_dict = json.load(f)
 bruteforce = []
 for line in file:
     line = line.strip()
